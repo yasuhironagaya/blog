@@ -10,7 +10,7 @@ export default function About() {
         <title>about Page</title>
       </Head>
 
-      <Hero />
+      <Hero title="About Pageです" subtitle="書きたいことを書くことが出来るスペースです"/>
     </>
   )
 }

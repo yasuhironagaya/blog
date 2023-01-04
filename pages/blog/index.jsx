@@ -10,7 +10,7 @@ export default function Blog() {
         <title>Blog Page</title>
       </Head>
 
-      <Hero />
+      <Hero title="一日の出来事" subtitle="2023年1月4日"/>
     </>
   )
 }
