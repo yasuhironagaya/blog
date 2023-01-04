@@ -1,13 +1,13 @@
-// about.jsx
+// blog
 
 import Head from 'next/head'
 import { Hero } from 'components/hero'
 
-export default function About() {
+export default function Blog() {
   return (
     <>
       <Head>
-        <title>about Page</title>
+        <title>Blog Page</title>
       </Head>
 
       <Hero />
