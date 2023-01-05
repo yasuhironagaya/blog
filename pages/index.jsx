@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero title="yasuhiro" subtitle="いつでも最高の学習を！" />
+      <Hero title="yasuhiro" subtitle="いつでも最高の学習を！" imageOn />
     </>
   )
 }
