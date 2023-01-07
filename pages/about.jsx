@@ -1,7 +1,7 @@
 // about.jsx
 
 import Head from 'next/head'
-import { Hero } from 'components/hero'
+import { Hero } from 'components/hero/'
 
 export default function About() {
   return (
@@ -10,7 +10,10 @@ export default function About() {
         <title>about Page</title>
       </Head>
 
-      <Hero title="About Pageです" subtitle="書きたいことを書くことが出来るスペースです"/>
+      <Hero
+        title="About Pageです"
+        subtitle="書きたいことを書くことが出来るスペースです"
+      />
     </>
   )
 }

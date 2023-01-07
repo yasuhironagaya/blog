@@ -1,5 +1,7 @@
-import { Logo } from './logo'
-import { Nav } from './nav'
+// header
+
+import { Logo } from '../logo'
+import { Nav } from '../nav'
 
 export function Header() {
   return (

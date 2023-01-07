@@ -1,4 +1,6 @@
-import { Logo } from './logo'
+// footer
+
+import { Logo } from '../logo'
 
 export function Footer() {
   return (

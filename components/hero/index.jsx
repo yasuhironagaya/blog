@@ -1,4 +1,6 @@
-import styles from 'styles/hero.module.css'
+// hero
+
+import styles from './hero.module.css'
 
 export function Hero({ title, subtitle, imageOn = false }) {
   return (

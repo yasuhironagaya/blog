@@ -1,5 +1,7 @@
-import { Footer } from './footer'
-import { Header } from './header'
+// layout
+
+import { Header } from '../header'
+import { Footer } from '../footer'
 
 export function Layout({ children }) {
   return (
