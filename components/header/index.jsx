@@ -6,7 +6,7 @@ import { Nav } from '../nav'
 export function Header() {
   return (
     <header>
-      <Logo />
+      <Logo boxOn/>
       <Nav />
     </header>
   )

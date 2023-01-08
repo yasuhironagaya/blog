@@ -1,11 +1,12 @@
 // nav
 
 import Link from 'next/link'
+import styles from "./nav.module.css"
 
 export function Nav() {
   return (
     <nav>
-      <ul>
+      <ul className={styles.list}>
         <li>
           <Link href="/">Home</Link>
         </li>
