@@ -6,16 +6,16 @@
 @media (hover: hover) {
   .list a:hover {
     color: var(--accent);
-    font-weight:900;
+    font-weight: 900;
   }
 }
-
 @media (hover: none) {
   .list a {
     -webkit-tap-highlight-color: transparent;
   }
   .list a:hover {
     color: var(--accent);
-    font-weight:900;
+    font-weight: 900;
   }
 }
+/*# sourceMappingURL=nav.module.css.map */
