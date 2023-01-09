@@ -1,4 +1,4 @@
-.list {
+nav.module.scss .list {
   display: flex;
   gap: 2em;
 }

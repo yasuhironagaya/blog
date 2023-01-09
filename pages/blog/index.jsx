@@ -10,7 +10,7 @@ export default function Blog() {
         <title>Blog Page</title>
       </Head>
 
-      <Hero title="一日の出来事" subtitle="2023年1月4日" />
+      <Hero title="blog" subtitle="pagesの中にもフォルダを作ってその下にindexを作成すると、そのindex ファイルが実行されます" />
     </>
   )
 }

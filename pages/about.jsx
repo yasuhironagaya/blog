@@ -11,8 +11,8 @@ export default function About() {
       </Head>
 
       <Hero
-        title="About Pageです"
-        subtitle="書きたいことを書くことが出来るスペースです"
+        title="About"
+        subtitle="このページについて！"
       />
     </>
   )
