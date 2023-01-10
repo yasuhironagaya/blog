@@ -1,5 +1,6 @@
 // index.jsx
 
+import { Container } from 'components/container'
 import Head from 'next/head'
 import { Hero } from 'components/hero/'
 
@@ -12,8 +13,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Hero title="index" subtitle="最初に実行される特別な名前" imageOn />
+      <Container>
+        <Hero title="index" subtitle="最初に実行される特別な名前" imageOn />
+      </Container>
     </>
   )
 }

@@ -1,2 +1,2 @@
-.spaceBetween{display:flex;justify-content:space-between;align-items:center}.sideBySide{display:flex;flex-direction:column}@media(min-width: 500px){.sideBySide{flex-direction:row;justify-content:space-between}}.sideBySideCenter{composes:sideBySide;align-items:center;text-align:center}@media(min-width: 500px){.sideBySideCenter{text-align:left}}
+.spaceBetween{display:flex;justify-content:space-between;align-items:center}.sideBySide{display:flex;flex-direction:column}@media(min-width: 667px){.sideBySide{flex-direction:row;justify-content:space-between}}.sideBySideCenter{composes:sideBySide;align-items:center;text-align:center}@media(min-width: 667px){.sideBySideCenter{text-align:left}}
 /*# sourceMappingURL=utils.module.min.css.map */
