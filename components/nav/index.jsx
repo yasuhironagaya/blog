@@ -1,7 +1,7 @@
 // nav
 
 import Link from 'next/link'
-import styles from "./nav.module.scss"
+import styles from './nav.module.scss'
 
 export function Nav() {
   return (
