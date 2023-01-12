@@ -1,0 +1,2 @@
+.flexContainer{composes:sideBySide from "../../styles/utils.module.scss";gap:var(--space-md);margin:var(--space-md) 0 var(--space-lg)}@media(width >= 667px){.main{width:667px}.sidebar{width:240px;position:-webkit-sticky;position:sticky;top:40px;align-self:flex-start}.sidebar *{text-align:right}.sidebar :is(div,ul){width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-left:auto;place-items:flex-end;place-content:flex-end}}
+/*# sourceMappingURL=two-column.module.min.css.map */

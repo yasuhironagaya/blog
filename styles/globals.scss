@@ -1,3 +1,5 @@
+// glbals.scss
+
 :root {
   /* カラー */
 
@@ -32,7 +34,7 @@
 
 body {
   color: var(--black);
-  font-family: 'メイリオ', 'Segoe UI';
+  font-family: 'Inter','メイリオ','Segoe UI';
 }
 h1 {
   font-size: var(--heading1);

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-:root {
+glbals.scss :root {
   /* カラー */
   --white: #ffffff;
   --gray-10: #eeeeee;
@@ -28,7 +28,7 @@
 /* 基本設定 */
 body {
   color: var(--black);
-  font-family: "メイリオ", "Segoe UI";
+  font-family: "Inter", "メイリオ", "Segoe UI";
 }
 
 h1 {
