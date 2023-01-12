@@ -1,5 +1,6 @@
 @charset "UTF-8";
-glbals.scss :root {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,900;1,400&display=swap");
+:root {
   /* カラー */
   --white: #ffffff;
   --gray-10: #eeeeee;
@@ -28,7 +29,7 @@ glbals.scss :root {
 /* 基本設定 */
 body {
   color: var(--black);
-  font-family: "Inter", "メイリオ", "Segoe UI";
+  font-family: "Raleway", sans-serif;
 }
 
 h1 {
@@ -41,6 +42,11 @@ h2 {
 
 h3 {
   font-size: var(--heading3);
+}
+
+/* next/image */
+span > img {
+  transition: 0.2s;
 }
 
 /* リセット */

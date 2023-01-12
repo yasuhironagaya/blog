@@ -1,5 +1,12 @@
 // glbals.scss
 
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+// @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,900;1,400&display=swap');
+
+
 :root {
   /* カラー */
 
@@ -34,7 +41,9 @@
 
 body {
   color: var(--black);
-  font-family: 'Inter','メイリオ','Segoe UI';
+  // font-family: 'Inter','Segoe UI';
+  font-family: 'Raleway', sans-serif;
+
 }
 h1 {
   font-size: var(--heading1);
@@ -45,6 +54,15 @@ h2 {
 h3 {
   font-size: var(--heading3);
 }
+
+/* next/image */
+
+span > img {
+  transition: 0.2s;
+}
+
+
+
 /* リセット */
 body,
 h1,
