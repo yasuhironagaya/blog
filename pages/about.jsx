@@ -1,7 +1,6 @@
 // about.jsx
 
 import { Container } from 'components/container'
-import Head from 'next/head'
 import { Hero } from 'components/hero/'
 import { PostBody } from 'components/post-body'
 import { Contact } from 'components/contact'
@@ -12,25 +11,24 @@ import {
 } from 'components/two-column'
 
 import Image from 'next/legacy/image'
-import eyecatch from '../images/about.jpg'
+import eyecatch from 'images/about.jpg'
+import { Meta } from 'components/meta'
 
 export default function About() {
   return (
     <>
-      <Head>
-        <title>about Page</title>
-      </Head>
       <Container>
+        <Meta pageTitle="アバウト" pageDesc="必要なことを必要な時に"/>
         <Hero title="About" subtitle="このページについて！" />
 
         <figure>
           <Image
             src={eyecatch}
             alt=""
-            layout='responsive'
+            layout="responsive"
             sizes="(width > 1152px) 1152px , 100vw"
             priority
-            placeholder='blur'
+            placeholder="blur"
           />
         </figure>
 
