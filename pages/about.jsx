@@ -18,7 +18,13 @@ export default function About() {
   return (
     <>
       <Container>
-        <Meta pageTitle="アバウト" pageDesc="必要なことを必要な時に"/>
+        <Meta
+          pageTitle="アバウト"
+          pageDesc="必要なことを必要な時に"
+          pageImg={eyecatch.src}
+          pageImgW={eyecatch.width}
+          pageImgH={eyecatch.height}
+        />
         <Hero title="About" subtitle="このページについて！" />
 
         <figure>
