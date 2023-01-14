@@ -1,8 +1,8 @@
 // header
 
-import { Container } from '../container'
-import { Logo } from '../logo'
-import { Nav } from '../nav'
+import { Container } from 'components/container'
+import { Logo } from 'components/logo'
+import { Nav } from 'components/nav'
 import styles from './header.module.scss'
 
 export function Header() {

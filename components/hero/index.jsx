@@ -2,7 +2,7 @@
 
 import styles from './hero.module.scss'
 import Image from 'next/legacy/image'
-import cube from '../../images/cube.jpg'
+import cube from 'images/cube.jpg'
 
 export function Hero({ title, subtitle, imageOn = false }) {
   return (

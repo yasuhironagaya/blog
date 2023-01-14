@@ -3,6 +3,7 @@
 import { Container } from 'components/container'
 import Head from 'next/head'
 import { Hero } from 'components/hero/'
+import { Icon } from 'components/awesomeicon'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Container>
         <Hero title="index" subtitle="最初に実行される特別な名前" imageOn />
+        <Icon />
       </Container>
     </>
   )
