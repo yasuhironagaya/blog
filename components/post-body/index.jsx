@@ -1,7 +1,7 @@
-// post-body
+// post-body.jsx
 
-import styles from './post-body.module.scss'
+import classes from './post-body.module.scss'
 
 export function PostBody({ children }) {
-  return <div className={styles.stack}>{children}</div>
+  return <div className={classes.stack}>{children}</div>
 }

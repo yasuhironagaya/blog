@@ -1,12 +1,12 @@
-// nav
+// nav.jsx
 
 import Link from 'next/link'
-import styles from './nav.module.scss'
+import classes from './nav.module.scss'
 
 export function Nav() {
   return (
     <nav>
-      <ul className={styles.list}>
+      <ul className={classes.list}>
         <li>
           <Link href="/">Home</Link>
         </li>

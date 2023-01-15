@@ -1,10 +1,12 @@
+// contact
+
 import { Social } from "components/social"
-import styles from "./contact.module.scss"
+import classes from "./contact.module.scss"
 
 export function Contact() {
   return (
-    <div className={styles.stack}>
-      <h3 className={styles.heading}>Contact</h3>
+    <div className={classes.stack}>
+      <h3 className={classes.heading}>Contact</h3>
       <Social iconSize="30px"/>
       <address>yasuhiro.nagaya@nifty.com</address>
     </div>

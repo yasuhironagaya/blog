@@ -1,5 +1,5 @@
 .flexContainer {
-  composes: sideBySide from "../../styles/utils.module.scss";
+  composes: sideBySide from "styles/utils.module.scss";
   gap: var(--space-md);
   margin: var(--space-md) 0 var(--space-lg);
 }

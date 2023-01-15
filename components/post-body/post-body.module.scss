@@ -1,3 +1,5 @@
+// postbody.module.scss
+
 .stack > * + * {
   margin-top: var(--stack-space, 2em);
 }

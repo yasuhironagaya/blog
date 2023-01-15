@@ -1,18 +1,18 @@
-// hero
+// hero.jsx
 
-import styles from './hero.module.scss'
+import classes from './hero.module.scss'
 import Image from 'next/legacy/image'
 import cube from 'images/cube.jpg'
 
 export function Hero({ title, subtitle, imageOn = false }) {
   return (
-    <div className={styles.flexContainer}>
-      <div className={styles.text}>
-        <h1 className={styles.title}>{title}</h1>
-        <p className={styles.subtitle}>{subtitle}</p>
+    <div className={classes.flexContainer}>
+      <div className={classes.text}>
+        <h1 className={classes.title}>{title}</h1>
+        <p className={classes.subtitle}>{subtitle}</p>
       </div>
       {imageOn && (
-        <figure className={styles.image}>
+        <figure className={classes.image}>
           <Image
             src={cube}
             alt=""

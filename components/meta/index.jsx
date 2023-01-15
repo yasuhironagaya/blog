@@ -1,3 +1,5 @@
+// meta.jsx
+
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
@@ -11,8 +13,10 @@ import siteImg from 'images/ogp.jpg'
 export function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) {
   // ページのタイトル
   const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
+
   // ページの説明
   const desc = pageDesc ?? siteDesc
+  
   // ページのURL
   const router = useRouter()
   const url = `${siteUrl}${router.asPath}`

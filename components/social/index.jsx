@@ -1,4 +1,6 @@
-import styles from './social.module.scss'
+// Social.jsx
+
+import classes from './social.module.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -9,7 +11,7 @@ import {
 
 export function Social({ iconSize = 'initial'}) {
   return (
-    <ul className={styles.list} style={{ '--icon-size': iconSize }}>
+    <ul className={classes.list} style={{ '--icon-size': iconSize }}>
       <li>
         <a href="https://twitter.com/">
           <FontAwesomeIcon icon={faTwitter} />

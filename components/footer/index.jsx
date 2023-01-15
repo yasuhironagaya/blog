@@ -1,15 +1,15 @@
-// footer
+// footer.jsx
 
 import { Social } from 'components/social'
 import { Container } from 'components/container'
 import { Logo } from 'components/logo'
-import styles from './footer.module.scss'
+import classes from './footer.module.scss'
 
 export function Footer() {
   return (
-    <footer className={styles.wrapper}>
+    <footer className={classes.wrapper}>
       <Container>
-        <div className={styles.flexContainer}>
+        <div className={classes.flexContainer}>
           <Logo />
           <Social />
         </div>

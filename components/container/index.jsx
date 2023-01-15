@@ -1,5 +1,7 @@
-import styles from './container.module.scss'
+// container.jsx
+
+import classes from './container.module.scss'
 
 export function Container({ children, large = false }) {
-  return <div className={large ? styles.large : styles.default}>{children}</div>
+  return <div className={large ? classes.large : classes.default}>{children}</div>
 }

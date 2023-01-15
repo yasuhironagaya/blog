@@ -1,15 +1,15 @@
 // two-column.jsx
 
-import styles from './two-column.module.scss'
+import classes from './two-column.module.scss'
 
 export function TwoColumn({ children }) {
-  return <div className={styles.flexContainer}>{children}</div>
+  return <div className={classes.flexContainer}>{children}</div>
 }
 
 export function TwoColumnMain({ children }) {
-  return <div className={styles.main}>{children}</div>
+  return <div className={classes.main}>{children}</div>
 }
 
 export function TwoColumnSidebar({ children }) {
-  return <div className={styles.sidebar}>{children}</div>
+  return <div className={classes.sidebar}>{children}</div>
 }
