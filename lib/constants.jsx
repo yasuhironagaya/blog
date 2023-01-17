@@ -1,8 +1,8 @@
 export const siteMeta = {
-  siteTitle: 'yasubay',
-  siteDesc: 'アウトプットしていくサイト',
+  siteTitle: 'HomeStretch',
+  siteDesc: '室内で体の柔軟性を高める方法を紹介',
   siteUrl: 'https://kokoroyasuku.xyz',
-  siteLang: 'ja',
+  siteLang: 'en',
   siteLocale: 'ja_jp',
   siteType: 'website',
   siteIcon: '/favicon.png',

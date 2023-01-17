@@ -1,9 +1,8 @@
 // index.jsx
 
 import { Container } from 'components/container'
-import { Hero } from 'components/hero/'
+import { Hero } from 'components/hero'
 import { Meta } from 'components/meta'
-// import { Icon } from 'components/awesomeicon'
 
 export default function Home() {
   return (

@@ -1,7 +1,6 @@
 // blog
 
 import { Container } from 'components/container'
-import Head from 'next/head'
 import { Hero } from 'components/hero/'
 import { Meta } from 'components/meta'
 

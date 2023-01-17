@@ -10,13 +10,14 @@ const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } =
 
 // 汎用OGP画像
 import siteImg from 'images/ogp.jpg'
+
 export function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) {
   // ページのタイトル
   const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
 
   // ページの説明
   const desc = pageDesc ?? siteDesc
-  
+
   // ページのURL
   const router = useRouter()
   const url = `${siteUrl}${router.asPath}`
@@ -40,10 +41,10 @@ export function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) {
       <meta property="og:locale" content={siteLocale} />
       <link rel="icon" href={siteIcon} />
       <link rel="apple-touch-icon" href={siteIcon} />
-      <meta property='og:image' content={imgUrl}/>
-      <meta property='og:image:width' content={imgW}/>
-      <meta proparty="og:image:height" content={imgH}/>
-      <meta name="twitter:card" content="summary_large_image"/>
+      <meta property="og:image" content={imgUrl} />
+      <meta property="og:image:width" content={imgW} />
+      <meta proparty="og:image:height" content={imgH} />
+      <meta name="twitter:card" content="summary_large_image" />
     </Head>
   )
 }
