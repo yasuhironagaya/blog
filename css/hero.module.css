@@ -1,6 +1,6 @@
 /* hero.module.css */
 .flexContainer {
-  composes: sideBySideCenter from "../../styles/utils.module.scss";
+  composes: sideBySideCenter from "styles/utils.module.scss";
 }
 
 .text {

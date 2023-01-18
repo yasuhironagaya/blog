@@ -4,7 +4,6 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 import { siteMeta } from 'lib/constants'
 const { sitelang } = siteMeta
-// console.log({sitelang})
 
 export default function Document() {
   return (
