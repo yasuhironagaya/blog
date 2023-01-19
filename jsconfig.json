@@ -1,3 +1,4 @@
+// 絶対パスでインポートできるようにする設定
 {
   "compilerOptions": {
     "baseUrl": "."
