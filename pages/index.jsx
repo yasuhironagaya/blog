@@ -7,9 +7,9 @@ import { Meta } from 'components/meta'
 export default function Home() {
   return (
     <>
-      <Container>
+      <Container >
         <Meta />
-        <Hero title="index" subtitle="最初に実行される特別な名前" imageOn />
+        <Hero title="Stretch" subtitle="緩める事により筋肉の柔軟性を獲得！" imageOn />
       </Container>
     </>
   )

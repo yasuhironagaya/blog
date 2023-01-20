@@ -1,4 +1,4 @@
-/* logo.module.css */
+/* logo.module.scss */
 .basic {
   font-size: var(--heading2);
   font-weight: 700;
@@ -12,5 +12,6 @@
   background-color: var(--gray-75);
   color: var(--white);
   font-size: var(--small-heading2);
+  border-radius: 10;
 }
 /*# sourceMappingURL=logo.module.css.map */
