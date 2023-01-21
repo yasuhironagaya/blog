@@ -2,4 +2,6 @@
 
 .flexContainer {
   composes: spaceBetween from 'styles/utils.module.scss';
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

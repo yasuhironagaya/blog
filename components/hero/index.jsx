@@ -2,6 +2,7 @@
 
 import classes from './hero.module.scss'
 import Image from 'next/legacy/image'
+// import Image from 'next/image'
 import cube from 'images/niwa.jpg'
 
 export function Hero({ title, subtitle, imageOn = false }) {
@@ -17,7 +18,7 @@ export function Hero({ title, subtitle, imageOn = false }) {
             src={cube}
             alt="123"
             layout="responsive"
-            sizes="(min-width:1152px) 576px), (min-width:768) 768, 100vw "
+            sizes="(min-width: 1152px) 576px, (min-width: 768px) 50vw, 100vw"
             priority
             placeholder="blur"
           />

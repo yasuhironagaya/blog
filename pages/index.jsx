@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Container >
         <Meta />
-        <Hero title="Stretch" subtitle="緩める事により筋肉の柔軟性を獲得！" imageOn />
+        <Hero title="Stretch" subtitle="ストレッチから始まる快適生活" imageOn />
       </Container>
     </>
   )

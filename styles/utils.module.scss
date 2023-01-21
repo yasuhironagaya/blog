@@ -4,6 +4,7 @@
 
 .spaceBetween {
   display: flex;
+  // flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
@@ -15,10 +16,11 @@
   flex-direction: column;
 }
 
-@media (width > 667px) {
+@media (width > 768px) {
   .sideBySide {
     flex-direction: row;
     justify-content: space-between;
+
   }
 }
 
@@ -30,7 +32,7 @@
   text-align: center;
 }
 
-@media (width > 667px) {
+@media (width > 768px) {
   .sideBySideCenter {
     text-align: left;
   }
