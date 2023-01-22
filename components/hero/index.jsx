@@ -3,7 +3,7 @@
 import classes from './hero.module.scss'
 import Image from 'next/legacy/image'
 // import Image from 'next/image'
-import cube from 'images/niwa.jpg'
+import cube from 'images/adatiGarden.jpg'
 
 export function Hero({ title, subtitle, imageOn = false }) {
   return (
@@ -16,7 +16,7 @@ export function Hero({ title, subtitle, imageOn = false }) {
         <figure className={classes.image}>
           <Image
             src={cube}
-            alt="123"
+            alt="足立美術館"
             layout="responsive"
             sizes="(min-width: 1152px) 576px, (min-width: 768px) 50vw, 100vw"
             priority

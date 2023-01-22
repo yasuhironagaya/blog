@@ -1,6 +1,7 @@
 /* hero.module.css */
 .flexContainer {
   composes: sideBySideCenter from "styles/utils.module.scss";
+  margin-bottom: 20px;
 }
 
 .text {
@@ -9,9 +10,10 @@
 }
 
 .title {
-  font-size: var(--d);
+  font-size: var(--display);
   font-weight: 900;
   letter-spacing: 0.15rem;
+  margin-bottom: 20px;
 }
 
 .subtitle {

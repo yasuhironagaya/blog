@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'
 import { siteMeta } from 'lib/constants'
 const { siteTitle, siteDesc, siteUrl, siteLocale, siteType, siteIcon } =
   siteMeta
+  // console.log({siteTitle})
 
 // 汎用OGP画像
 import siteImg from 'images/ogp.jpg'

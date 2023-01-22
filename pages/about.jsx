@@ -14,6 +14,8 @@ import Image from 'next/legacy/image'
 import eyecatch from 'images/about.jpg'
 import { Meta } from 'components/meta'
 
+
+
 export default function About() {
   return (
     <>
