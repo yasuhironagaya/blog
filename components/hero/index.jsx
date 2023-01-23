@@ -9,7 +9,7 @@ import cube from 'images/adatiGarden.jpg'
 export function Hero({ title, subtitle, imageOn = false }) {
   return (
     <div className={classes.flexContainer}>
-      <div className={classes.textPastel}>
+      <div className={classes.text}>
         <h1 className={classes.title}>{title}</h1>
         <p className={classes.subtitle}>{subtitle}</p>
       </div>

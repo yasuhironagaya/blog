@@ -5,7 +5,7 @@ import classes from './logo.module.scss'
 
 export function Logo({ boxOn = false }) {
   return (
-    <Link className={boxOn ? classes.box : classes.basic} href="/">
+    <Link href="/" className={boxOn ? classes.box : classes.basic} >
       あそぶろぐ
     </Link>
   )
