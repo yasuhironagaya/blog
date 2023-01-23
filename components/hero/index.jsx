@@ -2,13 +2,14 @@
 
 import classes from './hero.module.scss'
 import Image from 'next/legacy/image'
-// import Image from 'next/image'
 import cube from 'images/adatiGarden.jpg'
+
+// console.log(`クラスは${classes.title}です`)
 
 export function Hero({ title, subtitle, imageOn = false }) {
   return (
     <div className={classes.flexContainer}>
-      <div className={classes.text}>
+      <div className={classes.textPastel}>
         <h1 className={classes.title}>{title}</h1>
         <p className={classes.subtitle}>{subtitle}</p>
       </div>

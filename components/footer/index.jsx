@@ -13,7 +13,7 @@ export function Footer() {
         <div className={classes.flexContainer}>
           <Logo />
           <Social />
-         
+
         </div>
       </Container>
     </footer>

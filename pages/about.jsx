@@ -11,7 +11,7 @@ import {
 } from 'components/two-column'
 
 import Image from 'next/legacy/image'
-import eyecatch from 'images/about.jpg'
+import eyecatch from 'images/stratchball.jpg'
 import { Meta } from 'components/meta'
 
 

@@ -1,5 +1,5 @@
 function EachPost(props) {
-  return(
+  return (
     <article>
       <a href={props.url}>
         <h3>{props.title}</h3>
@@ -9,12 +9,14 @@ function EachPost(props) {
 }
 
 export function Posts() {
-  return(
+  const props1 = { title: '僕の日記', url: '/blog' }
+  const props2 = { title: 'このサイトについて', url: '/about' }
+
+  return (
     <section>
       <h2>おすすめ記事</h2>
-      <EachPost title="僕の日記" url="/blog" />
-      <EachPost title="このサイトについて" url="/about" />
-
+      <EachPost {...props1} />
+      <EachPost {...props2} />
     </section>
   )
 }
