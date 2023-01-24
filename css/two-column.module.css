@@ -23,7 +23,7 @@
     width: -moz-fit-content;
     width: fit-content;
     margin-left: auto;
-    place-items: flex-end;
+    place-items: flex-;
     place-content: flex-end;
   }
 }

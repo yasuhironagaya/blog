@@ -15,7 +15,7 @@
 @media (width >= 667px) {
   .sideBySide {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-;
   }
 }
 /* 横並び（中央揃え） */
