@@ -1,2 +1,2 @@
-.list{display:flex;gap:2em}@media(hover: hover){.list a:hover{color:var(--accent);font-weight:900}}@media(hover: none){.list a{-webkit-tap-highlight-color:rgba(0,0,0,0)}.list a:hover{color:var(--accent);font-weight:900}}
+.list{display:flex;gap:2em}@media(hover: hover){.list a:hover{color:var(--accent);font-weight:900}}@media(hover: none){.list a{-webkit-tap-highlight-color:rgba(0,0,0,0)}.list a:active{color:var(--accent);font-weight:900}}
 /*# sourceMappingURL=nav.module.min.css.map */

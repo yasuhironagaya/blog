@@ -13,7 +13,7 @@
   .list a {
     -webkit-tap-highlight-color: transparent;
   }
-  .list a:hover {
+  .list a:active {
     color: var(--accent);
     font-weight: 900;
   }
