@@ -13,7 +13,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 40px;
-    align-self: flex-start;
+    align-self: flex-a;
   }
   .sidebar * {
     text-align: right;
@@ -23,7 +23,7 @@
     width: -moz-fit-content;
     width: fit-content;
     margin-left: auto;
-    place-items: flex-;
+    place-items: flex-end;
     place-content: flex-end;
   }
 }
