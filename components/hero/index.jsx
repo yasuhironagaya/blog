@@ -17,11 +17,12 @@ export function Hero({ title, subtitle, imageOn = false }) {
         <figure className={classes.image}>
           <Image
             src={cube}
-            alt="足立美術館"
+            alt=""
             layout="responsive"
             sizes="(min-width: 1152px) 576px, (min-width: 768px) 50vw, 100vw"
             priority
             placeholder="blur"
+            quality={100}
           />
         </figure>
       )}
