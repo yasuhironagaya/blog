@@ -16,9 +16,6 @@ export function Nav() {
         <li>
           <Link href="/blog">Blog</Link>
         </li>
-        <li>
-          <Link href="/blog/music">ｽｹｼﾞｭｰﾙ</Link>
-        </li>
       </ul>
     </nav>
   )
