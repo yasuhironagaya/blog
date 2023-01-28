@@ -16,6 +16,9 @@ export function Nav() {
         <li>
           <Link href="/blog">Blog</Link>
         </li>
+        <li>
+          <Link href="/blog/schedule">ｽｹｼﾞｭｰﾙ</Link>
+        </li>
       </ul>
     </nav>
   )
