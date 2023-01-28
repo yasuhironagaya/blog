@@ -2,13 +2,13 @@
 
 .flexContainer {
   display: flex;
-  align-items:baseline;
-  gap:1.25rem;
+  align-items: baseline;
+  gap: 1.25rem;
   color: var(--glay-50);
 }
 
-@media (min-width: 768px){
-  .flexContainer{
+@media (min-width: 768px) {
+  .flexContainer {
     flex-direction: column;
   }
 }
