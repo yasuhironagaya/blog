@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"posts.module.min.css"}
+{"version":3,"sources":["../components/posts/posts.module.scss"],"names":[],"mappings":"AAEA,eACE,YAAA,CACA,6BAAA,CACA,qBAAA,CACA,0BAAA,CACA,6BAAA,CAGF,SACE,eAAA,CACA,+BAAA,CACA,eAAA,CAGF,aACE,iBAAA,CACA,iBAAA","file":"posts.module.min.css"}
