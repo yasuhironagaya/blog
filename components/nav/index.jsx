@@ -19,7 +19,7 @@ export function Nav() {
     <nav className={navIsOpen ? classes.open : classes.close}>
       {navIsOpen && (
         <style jsx global>{`
-          amedia (max-width: 767px) {
+          @media (max-width: 767px) {
             body {
               overflow: hidden;
               position: fixed;
